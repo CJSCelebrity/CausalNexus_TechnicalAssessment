@@ -77,14 +77,14 @@ namespace ultimaterace
         private static string thirdPos;
         private static string fourthPos;
 
-        public static void percentageDistance()
-        {
-            for (int i = 0; i < distanceToCover; i++)
-            {
-                Console.WriteLine($"\rProgress:{i}% ", Color.IndianRed);
-                Thread.Sleep(850);
-            }
-        }
+        //public static void percentageDistance()
+        //{
+        //    for (int i = 0; i < distanceToCover; i++)
+        //    {
+        //        Console.WriteLine($"\rProgress:{i}% ", Color.IndianRed);
+        //        Thread.Sleep(850);
+        //    }
+        //}
 
         public static void determineTrophyPositions(int bikePos,int teslaPos,int chopperPos, int subPos) 
         {
